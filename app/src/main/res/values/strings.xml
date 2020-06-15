@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="action_settings">Settings</string>
+    <string name="change_activity">Change Activity</string>
+    <string name="create_user_activity">Create_User_Activity</string>
+    <string name="toast_message">Toast Appeared</string>
+
+</resources>

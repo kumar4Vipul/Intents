@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UserOverViewActivity"
+    android:background="@color/User_color">
+
+    <TextView
+        android:id="@+id/Text_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User_Overview_Activity"
+
+        android:textAlignment="center"
+        android:textSize="35sp"/>
+    <Button
+        android:id="@+id/Change_activity_User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Done"
+        android:textSize="30sp"
+        android:onClick="onDone_button"
+        />
+    <EditText
+        android:id="@+id/Edit_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Please Enter a Name"
+        android:textAlignment="center"
+        android:layout_above="@id/Change_activity_User"
+        android:textSize="40sp"
+
+            />
+
+    <EditText
+        android:id="@+id/type_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Send_Mail"
+        android:layout_centerHorizontal="true"
+        android:hint="type your mail"
+        android:textAlignment="center"
+
+        />
+    <Button
+        android:id="@+id/Send_Mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Mail"
+        android:textSize="19sp"
+        android:layout_above="@+id/Open_Browser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:onClick="SendMail"/>
+    <Button
+        android:id="@+id/Open_Browser"
+        android:text="Open Browser"
+        android:textSize="19sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Edit_Text"
+        android:layout_centerHorizontal="true"
+        android:onClick="OpenBrowser"/>
+</RelativeLayout>

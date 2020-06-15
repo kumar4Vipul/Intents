@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Creat_color"
+    >
+
+    <Button
+        android:id="@+id/Change_activity_Create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_activity"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/Text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/create_user_activity"
+        android:textSize="40sp"
+        android:layout_above="@+id/Change_activity_Create"/>
+
+
+
+
+</RelativeLayout>
